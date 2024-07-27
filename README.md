@@ -16,6 +16,10 @@ For PHP 8.2, I installed the zip extension (required by one of the benchmarks).
 # docker build sle-bci -t ericosuse/phpdemo-slebci:latest
 ```
 
+Official PHP 8 image can be found here: https://hub.docker.com/_/php
+SLE-BCI image can be found here: https://registry.suse.com/repositories/bci-php
+
+
 ## Running the benchmark
 
 For the official PHP 8.2 image:
