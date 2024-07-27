@@ -4,7 +4,7 @@ Simple PHP benchmark comparison between official PHP 8.2 image and SUSE's SLE-BC
 Using the bench.php script provided at https://github.com/sergix44/php-benchmark-script
 
 ## What did I change?
-For both images, I set the memory_limit variable in php.ini to 1GB.
+For both images, I set the memory_limit variable in php.ini to 1GB and call the bench.php script with a multipler of 10x (runs the tests 10 times in a row).
 For SLE-BCI, I installed the additional packages: php8-ctype php8-iconv php8-tokenizer
 For PHP 8.2, I installed the zip extension (required by one of the benchmarks).
 
