@@ -105,4 +105,20 @@ Total time................................... 27.7784 s
 Peak memory usage................................ 2 MiB
 ```
 
+## Conclusions
+
+Even though the timings are almost the same for both, SLE-BCI offers slightly faster I/O and random number generation, beating the official image by almost 2 seconds.
+The size of the images, however, are VERY different:
+
+```
+# docker images
+REPOSITORY                            TAG               IMAGE ID       CREATED             SIZE
+ericosuse/phpdemo-official            latest            4d9465734fd4   31 minutes ago      531MB
+ericosuse/phpdemo-slebci              latest            2efe25590966   54 minutes ago      180MB
+```
+
+Both images are available at Docker Hub:
+
+* https://hub.docker.com/repository/docker/ericosuse/phpdemo-slebci
+* https://hub.docker.com/repository/docker/ericosuse/phpdemo-official
 
